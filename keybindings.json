@@ -1,0 +1,222 @@
+[
+  {
+    "command": "projectManager.listGitProjects#sideBarGit",
+    "key": "alt+o"
+  },
+  {
+    "command": "expand_region",
+    "key": "ctrl+=",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "undo_expand_region",
+    "key": "ctrl+-",
+    "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "command": "explorer.newFile",
+    "key": "a",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "renameFile",
+    "key": "r",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.copy",
+    "key": "c",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.paste",
+    "key": "p",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "d",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "key": "ctrl+n",
+    "when": "editorFocus"
+  },
+  {
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "key": "ctrl+n",
+    "when": "editorFocus"
+  },
+  {
+    "command": "-workbench.action.files.save",
+    "key": "alt+s"
+  },
+  {
+    "command": "saveAll",
+    "key": "alt+s"
+  },
+  {
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "key": "alt+d",
+    "when": "editorFocus"
+  },
+  {
+    "command": "-extension.vim_alt+d",
+    "key": "alt+d",
+    "when": "editorTextFocus && vim.active && vim.use<D-d> && !inDebugRepl"
+  },
+  {
+    "command": "workbench.action.splitEditor",
+    "key": "alt+d"
+  },
+  {
+    "command": "turboConsoleLog.displayLogMessage",
+    "key": "alt+i"
+  },
+  {
+    "command": "-turboConsoleLog.displayLogMessage",
+    "key": "ctrl+alt+l"
+  },
+  {
+    "command": "-undo",
+    "key": "ctrl+z"
+  },
+  {
+    "command": "-interactiveEditor.unstash",
+    "key": "alt+z",
+    "when": "interactiveEditorHasStashedSession && !editorReadonly"
+  },
+  {
+    "command": "workbench.action.toggleZenMode",
+    "key": "alt+z"
+  },
+  {
+    "command": "-workbench.action.toggleZenMode",
+    "key": "alt+k z"
+  },
+  {
+    "command": "-editor.action.selectAll",
+    "key": "alt+a"
+  },
+  {
+    "command": "editor.action.selectAll",
+    "key": "alt+a"
+  },
+  {
+    "key": "alt+backspace",
+    "command": "editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "-editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "alt+insert",
+    "command": "workbench.action.togglePanel"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-workbench.action.togglePanel"
+  },
+  {
+    "key": "alt+backspace",
+    "command": "keybindings.editor.recordSearchKeys",
+    "when": "inKeybindings && inKeybindingsSearch"
+  },
+  {
+    "key": "alt+k",
+    "command": "-keybindings.editor.recordSearchKeys",
+    "when": "inKeybindings && inKeybindingsSearch"
+  },
+  {
+    "key": "alt+backspace",
+    "command": "testing.toggleTestingPeekHistory",
+    "when": "testing.isPeekVisible"
+  },
+  {
+    "key": "alt+h",
+    "command": "-testing.toggleTestingPeekHistory",
+    "when": "testing.isPeekVisible"
+  },
+  {
+    "key": "alt+backspace",
+    "command": "toggleSearchEditorContextLines",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "alt+l",
+    "command": "-toggleSearchEditorContextLines",
+    "when": "inSearchEditor"
+  },
+  {
+    "key": "alt+backspace",
+    "command": "toggleFindInSelection",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+h",
+    "command": "cursorLeft",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "cursorDown",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "cursorUp",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "cursorRight",
+    "when": "editorTextFocus && vim.active && vim.mode == 'Insert'"
+  },
+  {
+    "key": "alt+j",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "alt+k",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetVisible"
+  },
+  {
+    "key": "alt+j",
+    "command": "workbench.action.quickOpenSelectNext",
+    "when": "inQuickOpen"
+  },
+  {
+    "key": "alt+k",
+    "command": "workbench.action.quickOpenSelectPrevious",
+    "when": "inQuickOpen"
+  },
+  {
+    "command": "workbench.files.action.focusFilesExplorer",
+    "key": "ctrl+d",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "workbench.action.focusActiveEditorGroup"
+  },
+  {
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "ctrl+n"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "actions.find",
+    "when": "editorTextFocus && vim.active"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "workbench.action.findInFiles",
+    "when": "vim.active"
+  }
+]
